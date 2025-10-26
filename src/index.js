@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://fastapi-backend.onrender.com/") // replace with your actual backend URL
+    fetch("https://fastapi-backend-qqa7.onrender.com/") // replace with your actual backend URL
       .then(res => res.json())
       .then(json => setMessage(json.message));
 
