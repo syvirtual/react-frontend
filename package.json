@@ -1,0 +1,16 @@
+{
+  "name": "react-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "echo 'React dev server not used on Render'",
+    "build": "npx parcel build index.html --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
