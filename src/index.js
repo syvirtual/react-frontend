@@ -10,7 +10,7 @@ function App() {
       .then(res => res.json())
       .then(json => setMessage(json.message));
 
-    fetch("https://fastapi-backend.onrender.com/api/data")
+    fetch("https://fastapi-backend-qqa7.onrender.com/api/data")
       .then(res => res.json())
       .then(json => setData(json.data));
   }, []);
